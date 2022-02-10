@@ -1,14 +1,14 @@
 dotenv: .env
 dependencies:
   - smartcontractkit/chainlink-brownie-contracts@1.1.1
-  - OpenZeppelin/openzeppelin-contracts@4.4.1
+  - OpenZeppelin/openzeppelin-contracts@4.5.0
   - chiru-labs/ERC721A@2.0.0
 
 compiler:
   solc:
     remappings:
       - '@chainlink=smartcontractkit/chainlink-brownie-contracts@1.1.1'
-      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.4.1'
+      - '@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.5.0'
       - '@chirulabs=chiru-labs/ERC721A@2.0.0'
 # automatically fetch contract sources from Etherscan
 autofetch_sources: True
